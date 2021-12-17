@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>User Profile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='user.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='report.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sidebar.css'>
+
+    
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <div class="proimg">
+            <img src="defaultpro.jpg" alt="">
+            <h3>User</h3>
+        </div>
+        <!--menu items-->
+        <ul>
+            <li><a href="home.html" class="active">
+                <span class="item">Home</span>
+            </a></li>
+            <li><a href="maps.html">
+                <span class="item">Map View</span>
+            </a></li>
+            <li><a href="profile.html">
+                <span class="item">Profile</span>
+            </a></li>
+            <li><a href="report.html">
+                <span class="item">Report Pothole</span>
+            </a></li>
+        </ul>
+
+        <div class="lout">
+            <button type="submit" class="buttonlog"><a href="C:\Users\Sheldon\OneDrive\Desktop\HTML & CSS Practice\3613\login.html"> Log out</a></button>
+        </div>
+    </div>
+
+    <!--menu bar-->
+    <div class="section">
+        <div class="top_navbar">
+            <div class="barbtn">
+             <a href="#"><i class=" material-icons">dehaze</i></a>
+            </div>
+            <h2>The PotHole Spotter</h2>
+        </div>
+    </div>
+
+<div class="repo">
+    <h2>Reporting a pothole</h2>
+    <form >
+        <div class="form-group">
+            <label id="name-label" for="name">Location</label>
+            <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter Location"
+            />
+        </div>
+
+        <div class="form-group">
+            <label id="email-label" for="text">Details</label>
+            <textarea rows="5" cols="18"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="img">Select image:</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <button type="submit"><a href="home.html">upload</a></button>
+        </div>
+
+   </form>
+   </div>
+ </div>
+ 
+
+    <script>
+        var barbtn = document.querySelector(".barbtn");
+        barbtn.addEventListener("click", function(){
+        document.querySelector("body").classList.toggle("active");
+    })
+    </script>
+    </body>
+
+    </html>

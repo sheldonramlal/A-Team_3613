@@ -1,0 +1,12 @@
+.repo .form-group{
+    width: calc(100% - 350px);
+    margin-left: 350px;
+    transition: all 0.5s ease;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}

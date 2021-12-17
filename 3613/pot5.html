@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pothole</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='sidebar.css'>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="proimg">
+                <img src="defaultpro.jpg" alt="">
+                <h3>User</h3>
+            </div>
+            <!--menu items-->
+            <ul>
+                <li><a href="home.html" class="active">
+                    <span class="item">Home</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="item">Map View</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="item">Profile</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="item">Report Pothole</span>
+                </a></li>
+            </ul>
+
+            <div class="lout">
+                <button type="submit" class="buttonlog"><a href="C:\Users\Sheldon\OneDrive\Desktop\HTML & CSS Practice\3613\login.html"> Log out</a></button>
+            </div>
+        </div>
+
+        <!--menu bar-->
+        <div class="section">
+            <div class="top_navbar">
+                <div class="barbtn">
+                 <a href="#"><i class=" material-icons">dehaze</i></a>
+                </div>
+                <h2>The PotHole Spotter</h2>
+            </div>
+        </div>
+      <div class="vp">
+        <h3 style="margin-bottom: 50px;" class="pothead">Pothole spotted at Walker street, Felicity</h3>
+        <p class="pothead"> GPS coordinates </p> <p style="padding: 20px; "> 10.540696014479842, -61.43891190190391  </p>
+        <p class="pothead" style="padding-top: 10px;"> Details</p>
+    
+        <p style="padding: 20px;"> MASSIVE pothole!! hilux already went down in it.<br>
+          </p>
+      <div class="pic">
+          <p class="pothead"> Image </p>
+        <img src="p5.jpeg" alt="pothole sando">  
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.5509250754103!2d-61.439669985379716!3d10.54063139248179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c35fbe961e7e02b%3A0xe33ecc0778c8b095!2sWalker%20St%2C%20Felicity!5e1!3m2!1sen!2stt!4v1639737537244!5m2!1sen!2stt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+    </div>
+      
+    
+</div>
+
+
+  <script>
+    var barbtn = document.querySelector(".barbtn");
+    barbtn.addEventListener("click", function(){
+    document.querySelector("body").classList.toggle("active");
+})
+</script>
+</body>
+</html>

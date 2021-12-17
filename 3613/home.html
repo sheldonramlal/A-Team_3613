@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="sidebar.css">
+<title>
+    The PotHole Spotter
+</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="proimg">
+                <img src="defaultpro.jpg" alt="">
+                <h3>User</h3>
+            </div>
+            <!--menu items-->
+            <ul>
+                <li><a href="home.html" class="active">
+                    <span class="item">Home</span>
+                </a></li>
+                <li><a href="maps.html">
+                    <span class="item">Map View</span>
+                </a></li>
+                <li><a href="profile.html">
+                    <span class="item">Profile</span>
+                </a></li>
+                <li><a href="report.html">
+                    <span class="item">Report Pothole</span>
+                </a></li>
+            </ul>
+
+            <div class="lout">
+                <button type="submit" class="buttonlog"><a href="C:\Users\Sheldon\OneDrive\Desktop\HTML & CSS Practice\3613\login.html"> Log out</a></button>
+            </div>
+        </div>
+
+        <!--menu bar-->
+        <div class="section">
+            <div class="top_navbar">
+                <div class="barbtn">
+                 <a href="#"><i class=" material-icons">dehaze</i></a>
+                </div>
+                <h2>The PotHole Spotter</h2>
+            </div>
+        </div>
+
+        <!--POTHOLES ON HOMESCREEN-->
+        <div class="potsec">
+            
+          <a href="pot1.html">  <div class="potcard">
+               <img src="p1.jpg" alt="pothole">
+               <div class="potcont">
+                   <h4>Pothole at Republic Bank San Fernando</h4>
+               </div>
+            </div> </a>
+
+          <a href="pot2.html">  <div class="potcard">  
+                <img src="p2.jpg" alt="pothole">
+                <div class="potcont">
+                    <h4>Pothole at Dundonald street POS</h4>
+                </div>
+             </div> </a>
+
+          <a href="pot3.html">  <div class="potcard">
+                <img src="p3.jpg" alt="pothole">
+                <div class="potcont">
+                    <h4>Pothole at Clifford Street, St.Augustine</h4>
+                </div>
+             </div> </a>
+
+          <a href="pot4.html">  <div class="potcard">
+                <img src="p4.jpg" alt="pothole">
+                <div class="potcont">
+                    <h4>Pothole at Grant road, Rousillac</h4>
+                </div>
+             </div> </a>  
+
+             <a href="pot5.html">  <div class="potcard">
+                <img src="p5.jpeg" alt="pothole" height="220px" width="270px">
+                <div class="potcont">
+                    <h4>Pothole at Walker street, Felicity</h4>
+                </div>
+             </div> </a>
+             
+             <a href="pot6.html">  <div class="potcard">
+                <img src="p6.jpg" alt="pothole" height="220px" width="270px">
+                <div class="potcont">
+                    <h4>Pothole at Victoria street, Siparia</h4>
+                </div>
+             </div> </a>
+
+             <a href="pot7.html">  <div class="potcard">
+                <img src="p7.jpg" alt="pothole">
+                <div class="potcont">
+                    <h4>Pothole at Edward street, Mayaro</h4>
+                </div>
+             </div> </a>
+
+            <a href="pot8.html">  <div class="potcard">
+                <img src="p8.jpg" alt="pothole">
+                <div class="potcont">
+                    <h4>Pothole at Martin trace, San Juan</h4>
+                </div>
+             </div> </a>
+
+        
+         </div>   
+            
+        
+    </div>
+
+    <script>
+        var barbtn = document.querySelector(".barbtn");
+        barbtn.addEventListener("click", function(){
+        document.querySelector("body").classList.toggle("active");
+    })
+    </script>
+   
+
+</body>
+
+</html>

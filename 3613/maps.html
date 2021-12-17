@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="mapc.css">
+    <link rel="stylesheet" href="sidebar.css">
+<title>
+    The PotHole Spotter
+</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="proimg">
+                <img src="defaultpro.jpg" alt="">
+                <h3>User</h3>
+            </div>
+            <!--menu items-->
+            <ul>
+                <li><a href="home.html" class="active">
+                    <span class="item">Home</span>
+                </a></li>
+                <li><a href="maps.html">
+                    <span class="item">Map View</span>
+                </a></li>
+                <li><a href="profile.html">
+                    <span class="item">Profile</span>
+                </a></li>
+                <li><a href="report.html">
+                    <span class="item">Report Pothole</span>
+                </a></li>
+            </ul>
+
+            <div class="lout">
+                <button type="submit" class="buttonlog"><a href="C:\Users\Sheldon\OneDrive\Desktop\HTML & CSS Practice\3613\login.html"> Log out</a></button>
+            </div>
+        </div>
+
+        <!--menu bar-->
+        <div class="section">
+            <div class="top_navbar">
+                <div class="barbtn">
+                 <a href="#"><i class=" material-icons">dehaze</i></a>
+                </div>
+                <h2>The PotHole Spotter</h2>
+            </div>
+        </div>
+         <div class="mapc">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1GrqDwBb0Uqh0M39cnIye-FmmV99U6xaI&ehbc=2E312F" width="640" height="480"></iframe>
+        </div>
+    </div>
+  
+        <script>
+            var barbtn = document.querySelector(".barbtn");
+            barbtn.addEventListener("click", function(){
+            document.querySelector("body").classList.toggle("active");
+        })
+        </script>
+</body>
+</html>
